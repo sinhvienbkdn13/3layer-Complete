@@ -1,0 +1,5 @@
+D:\Exam C#\ReView\DTO\bin\Debug\DTO.dll
+D:\Exam C#\ReView\DTO\bin\Debug\DTO.pdb
+D:\Exam C#\ReView\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Exam C#\ReView\DTO\obj\Debug\DTO.dll
+D:\Exam C#\ReView\DTO\obj\Debug\DTO.pdb

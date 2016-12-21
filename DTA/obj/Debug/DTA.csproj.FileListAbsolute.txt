@@ -1,0 +1,8 @@
+D:\Exam C#\ReView\DTA\bin\Debug\DTA.dll.config
+D:\Exam C#\ReView\DTA\bin\Debug\DTA.dll
+D:\Exam C#\ReView\DTA\bin\Debug\DTA.pdb
+D:\Exam C#\ReView\DTA\bin\Debug\DTO.dll
+D:\Exam C#\ReView\DTA\bin\Debug\DTO.pdb
+D:\Exam C#\ReView\DTA\obj\Debug\DTA.csprojResolveAssemblyReference.cache
+D:\Exam C#\ReView\DTA\obj\Debug\DTA.dll
+D:\Exam C#\ReView\DTA\obj\Debug\DTA.pdb

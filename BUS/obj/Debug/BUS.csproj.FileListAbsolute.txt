@@ -1,0 +1,9 @@
+D:\Exam C#\ReView\BUS\bin\Debug\BUS.dll
+D:\Exam C#\ReView\BUS\bin\Debug\BUS.pdb
+D:\Exam C#\ReView\BUS\bin\Debug\DTA.dll
+D:\Exam C#\ReView\BUS\bin\Debug\DTO.dll
+D:\Exam C#\ReView\BUS\bin\Debug\DTA.pdb
+D:\Exam C#\ReView\BUS\bin\Debug\DTO.pdb
+D:\Exam C#\ReView\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\Exam C#\ReView\BUS\obj\Debug\BUS.dll
+D:\Exam C#\ReView\BUS\obj\Debug\BUS.pdb
