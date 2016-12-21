@@ -13,7 +13,7 @@ namespace ReView
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmContacts());
+            Application.Run(new frmLogin());
         }
     }
 }

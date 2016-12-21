@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DTO;
 
 namespace DTA
 {
@@ -18,6 +19,18 @@ namespace DTA
             dtAdapter = new SqlDataAdapter("spSelectAllUsers",connect);
             dtAdapter.Fill(dtTable);
             return dtTable;
+        }
+        public bool Insert(User newUser)
+        {
+            connect.Open();
+            SqlCommand cmd = new SqlCommand("spInsertUsers", connect);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@UserId", newUser.UserId);
+            cmd.Parameters.AddWithValue("@UserPwd", newUser.UserPwd);
+            int i = cmd.ExecuteNonQuery();
+            connect.Close();
+            if (i == 1) return true;
+            return false;
         }
     }
 }

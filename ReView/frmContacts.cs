@@ -13,6 +13,7 @@ namespace ReView
         private DataTable dtListContact = new DataTable();
         private int index;
         private bool isSelect = true;
+        public string frmName;
         public frmContacts()
         {
             InitializeComponent();
@@ -50,6 +51,7 @@ namespace ReView
 
         private void frmContacts_Load(object sender, EventArgs e)
         {
+            this.Text = " UserID - " + frmName;
             Init();
             LoadList();
         }
@@ -171,6 +173,12 @@ namespace ReView
         private void dgvListContact_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             index = dgvListContact.CurrentCell.RowIndex;
+        }
+
+        private void frmContacts_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmLogin fLogin = new frmLogin();
+            fLogin.Visible = true;
         }
     }
 }

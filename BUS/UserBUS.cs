@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DTA;
 using System.Data;
+using DTO;
 
 namespace BUS
 {
@@ -15,6 +16,10 @@ namespace BUS
         public DataTable SelectAllUser()
         {
             return user.SelectAll();
+        }
+        public bool SignUpNewUser(User newUser)
+        {
+            return user.Insert(newUser);
         }
     }
 }

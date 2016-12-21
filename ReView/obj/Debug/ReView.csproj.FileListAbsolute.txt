@@ -100,3 +100,4 @@ D:\Exam C#\ReView\ReView\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
 D:\Exam C#\ReView\ReView\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
 D:\Exam C#\ReView\ReView\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
 D:\Exam C#\ReView\ReView\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Exam C#\ReView\ReView\obj\Debug\ReView.frmSignUp.resources

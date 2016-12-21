@@ -256,6 +256,7 @@
             this.Controls.Add(this.txtFirstName);
             this.Name = "frmContacts";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmContacts_FormClosed);
             this.Load += new System.EventHandler(this.frmContacts_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtFirstName)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
